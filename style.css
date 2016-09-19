@@ -1,0 +1,63 @@
+body {
+	font-family: sans-serif;
+	background: url('background2.jpg') no-repeat fixed center;
+	color: #454545;
+}
+
+#container {
+	background: #fff;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2em;
+	border-radius: 0.2em;
+	box-shadow: 0px 0px 10px -5px #1a1a1a;
+}
+
+#profilepicture {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px -4px #000;
+}
+
+#name {
+	text-align: center;
+}
+
+.sub-heading {
+	text-align: center;
+	width: 22%;
+    font-weight: 400;
+    float:  left;
+}
+
+.details {
+	width: 78%;
+	float: right;
+}
+
+.section {
+	overflow: auto;
+    margin: 3em 0em;
+}
+
+
+table {
+	padding: 0;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+td, th {
+	padding: 1em;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	margin: 0;
+}
+
+#top-section {
+	background: url('background.jpg') center;
+	background-size: cover;
+	color: #f5f5f5;
+	padding: 1em;
+}
